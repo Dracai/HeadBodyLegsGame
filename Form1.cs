@@ -15,7 +15,8 @@ namespace HeadBodyLegsGame
         List<string> listOfRandom = new List<string>();
         Random number = new Random();
         int numHead, numBody, numLegs;
-        HashSet<int> names = new HashSet<int>();
+        HashSet<int> nameNum = new HashSet<int>();
+        int rand;
 
         public Form1()
         {
@@ -29,7 +30,8 @@ namespace HeadBodyLegsGame
             listOfRandom.Add("Dog"); listOfRandom.Add("Cat"); listOfRandom.Add("Horse");
             listOfRandom.Add("Tiger"); listOfRandom.Add("Giraffe"); listOfRandom.Add("Mouse");
             listOfRandom.Add("Raccoon"); listOfRandom.Add("Otter"); listOfRandom.Add("Snake");
-            listOfRandom.Add("Rabbit"); listOfRandom.Add("");
+            listOfRandom.Add("Rabbit"); listOfRandom.Add("Lion"); listOfRandom.Add("Wolf");
+            listOfRandom.Add("Zebra"); listOfRandom.Add("Elephant"); listOfRandom.Add("Pig");
         }
 
         private void cckMythical_CheckedChanged(object sender, EventArgs e)
@@ -41,37 +43,19 @@ namespace HeadBodyLegsGame
 
         private void btnGenHead_Click(object sender, EventArgs e)
         {
-            int listAmount = listOfRandom.Count();
-
-            numHead = number.Next(0, listAmount);
-            if (names.Contains(numHead))
-            {
-                numHead = number.Next(0, listAmount);
-            }
+            numHead = RandomNumber();
             txtHead.Text = listOfRandom[numHead];
         }
 
         private void btnGenBody_Click(object sender, EventArgs e)
         {
-            int listAmount = listOfRandom.Count();
-
-            numBody = number.Next(0, listAmount);
-            if (names.Contains(numBody))
-            {
-                numBody = number.Next(0, listAmount);
-            }
+            numBody = RandomNumber();
             txtBody.Text = listOfRandom[numBody];
         }
 
         private void btnGenLegs_Click(object sender, EventArgs e)
         {
-            int listAmount = listOfRandom.Count();
-
-            numLegs = number.Next(0, listAmount);
-            if (names.Contains(numLegs))
-            {
-                numBody = number.Next(0, listAmount);
-            }
+            numLegs = RandomNumber();
             txtLegs.Text = listOfRandom[numLegs];
         }
 
@@ -81,12 +65,24 @@ namespace HeadBodyLegsGame
             txtBody.Clear();
             txtLegs.Clear();
 
-            names.Clear();
+            nameNum.Clear();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private int RandomNumber()
+        {
+            int range = listOfRandom.Count();
+            rand = number.Next(0, range);
+            while (nameNum.Contains(rand))
+            {
+                rand = number.Next(0, range);
+            }
+            nameNum.Add(rand);
+            return rand;
         }
     }
 }
