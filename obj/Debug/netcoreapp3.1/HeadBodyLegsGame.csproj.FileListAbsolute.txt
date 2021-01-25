@@ -1,0 +1,15 @@
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\bin\Debug\netcoreapp3.1\HeadBodyLegsGame.exe
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\bin\Debug\netcoreapp3.1\HeadBodyLegsGame.deps.json
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\bin\Debug\netcoreapp3.1\HeadBodyLegsGame.runtimeconfig.json
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\bin\Debug\netcoreapp3.1\HeadBodyLegsGame.runtimeconfig.dev.json
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\bin\Debug\netcoreapp3.1\HeadBodyLegsGame.dll
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\bin\Debug\netcoreapp3.1\HeadBodyLegsGame.pdb
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\obj\Debug\netcoreapp3.1\HeadBodyLegsGame.csprojAssemblyReference.cache
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\obj\Debug\netcoreapp3.1\HeadBodyLegsGame.Form1.resources
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\obj\Debug\netcoreapp3.1\HeadBodyLegsGame.csproj.GenerateResource.cache
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\obj\Debug\netcoreapp3.1\HeadBodyLegsGame.AssemblyInfoInputs.cache
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\obj\Debug\netcoreapp3.1\HeadBodyLegsGame.AssemblyInfo.cs
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\obj\Debug\netcoreapp3.1\HeadBodyLegsGame.csproj.CoreCompileInputs.cache
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\obj\Debug\netcoreapp3.1\HeadBodyLegsGame.dll
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\obj\Debug\netcoreapp3.1\HeadBodyLegsGame.pdb
+D:\Personal Coding Projects\HeadBodyLegsGame\HeadBodyLegsGame\obj\Debug\netcoreapp3.1\HeadBodyLegsGame.genruntimeconfig.cache
