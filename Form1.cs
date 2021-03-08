@@ -75,14 +75,14 @@ namespace HeadBodyLegsGame
 
         private int RandomNumber()
         {
-            int range = listOfRandom.Count();
-            rand = number.Next(0, range);
-            while (nameNum.Contains(rand))
-            {
+                int range = listOfRandom.Count();
                 rand = number.Next(0, range);
-            }
-            nameNum.Add(rand);
-            return rand;
+                while (nameNum.Contains(rand))
+                {
+                    rand = number.Next(0, range);
+                }
+                nameNum.Add(rand);
+                return rand;
         }
     }
 }
